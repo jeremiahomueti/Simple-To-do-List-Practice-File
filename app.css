@@ -1,0 +1,18 @@
+li { 
+    /* No dot(before 'li', that is .li) */
+    color: blue;
+}
+
+.done {
+    /* There is a dot before 'done' - this could be because
+    'done' is a class, and not an id, and not whatever 'li' is. */
+    color: grey;
+}
+
+#clear{
+    /* There's a hash sign before 'clear' - that's very much
+    because 'clear' is an id. */
+    color: white;
+    background-color: red;
+    
+}
